@@ -1,14 +1,8 @@
-:root {
-  --color: #a7ddb3;
-  --txt: rgb(248, 227, 227);
-}
-
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  color: var(--txt);
 }
 
 .content {
@@ -23,7 +17,6 @@
 }
 
 .picture {
-  background-image: url();
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -32,27 +25,23 @@
 
 .logo {
   height: auto;
-  background-color: rgba(240, 19, 166, 0.7);
+  background-color: rgba(251, 243, 255, 0.897);
   position: relative;
   top: 20vh;
   gap: 1vw;
   padding: 15px 0;
-
   justify-content: center;
   align-items: center;
 }
 
-/* h1 {
-  color: white;
-} */
-
 .simone {
   height: 10vh;
+  color: black;
 }
 
 .right {
   width: 60vw;
-  background-color: #890ba8;
+  background-color: #fd4ceec5;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -73,7 +62,7 @@
 }
 
 .form {
-  background-color: rgb(238, 22, 238);
+  background-color: rgb(224, 156, 255);
   box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
   display: flex;
   flex-flow: row wrap;
