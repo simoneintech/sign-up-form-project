@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styless.css" />
+    <title>Sign Up Today</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="picture">
+        <div class="logo">
+          <img src="images/fairy.jpeg" alt="logo" class="" />
+          <h1 class="Simone">S I M O N E</h1>
+        </div>
+      </div>
+      <div class="right">
+        <div class="dummy-text left">
+          <p>
+            Just adding some filler text, I don't know what else to add here.
+            <br />So here's a random quote "Google is my greatest assest as a
+            developer."
+          </p>
+          <br />
+          <br />
+          <p>Sign up <em>now</em> to get started.<br /></p>
+        </div>
+        <br />
+        <form action="#">
+          <div class="form left">
+            <p class="form-title">Ready to Join?</p>
+            <div class="input">
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+
+            <div class="input">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" required />
+            </div>
+
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="input">
+              <label for="phone-number">Phone number</label>
+              <input
+                type="text"
+                name="phone-number"
+                id="phone-number"
+                minlength="9"
+                maxlength="9"
+                optional
+              />
+            </div>
+
+            <div class="input">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+
+            <div class="input">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                required
+              />
+            </div>
+          </div>
+          <div class="left button">
+            <button type="submit">Join Now</button>
+          </div>
+        </form>
+        <div class="log-in left">
+          <p>Already have an account?</p>
+          <a href="#">Log in</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
